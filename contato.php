@@ -11,3 +11,10 @@ include_once './includes/_header.php';
 // include do footer
 include_once './includes/_footer.php';
 ?>
+
+</main>
+
+
+<footer>
+
+</footer
