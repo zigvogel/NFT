@@ -19,5 +19,5 @@ $produtos = array(
    
     8 => array('nome'=>'tigre','preco'=>'9859','descricao'=>'tigre pregicoso o melhor gato que existe','imagem'=>'tigre-pregicoso.webp'),
   
-    9 => array('nome'=>'piriquito','preco'=>'80343','descricao'=>'piriquitino preparado paa de matar de amor','imagem'=>'periquitinho.jpg')
+    9 => array('nome'=>'piriquito','preco'=>'80343','descricao'=>'piriquitino preparado para de matar de amor','imagem'=>'periquitinho.jpg')
 );
