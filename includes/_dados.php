@@ -17,7 +17,7 @@ $produtos = array(
   
     7 => array('nome'=>'urso','preco'=>'49094','descricao'=>'urso tristao pronto paa dividir as magoas com voce','imagem'=>'urso-tristao.jpg'),
    
-    8 => array('nome'=>'tigre','preco'=>'9859','descricao'=>'tigre pregicoso o melhor gato que existe','imagem'=>'tigre-pregicoso.webp'),
+    8 => array('nome'=>'tigre','preco'=>'9859','descricao'=>'tigre preguicoso o melhor gato que existe','imagem'=>'tigre-pregicoso.webp'),
   
     9 => array('nome'=>'piriquito','preco'=>'80343','descricao'=>'piriquitino preparado para de matar de amor','imagem'=>'periquitinho.jpg')
 );
