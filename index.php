@@ -1,7 +1,6 @@
 <?php
 // include do footer
 include_once './includes/_banco.php';
-include_once './includes/_dados.php';
 include_once './includes/_head.php';
 include_once './includes/_header.php';
 ?>
@@ -9,6 +8,19 @@ include_once './includes/_header.php';
     <h2>Promoção</h2>
     <div class="row mt-5">
         <?php
+        $sql = "SELECT * from categorias where ativo = 1";
+        //executa o comando sql
+        $exec = mysqli_query($conn,$sql);
+        //informar a quantidade de registro de dados
+        $numProdutos = mysqli_num_rows($exec);
+
+        while ($dados = mysqli_fetch_assoc($exec)) {
+            echo '<h1>' .$dados['Nome']. '</h1>';
+            echo '<pre>';
+            pre_r($dados);
+            echo'<pre>';
+        }
+
         // laco de repeticao para exibir os 3 primeiros produtos
         for ($i=0; $i < 10 ; $i++) { 
         ?>

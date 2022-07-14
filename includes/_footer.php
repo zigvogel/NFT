@@ -23,4 +23,8 @@
 -->
 </body>
 
-</html>
+</html> 
+<?php
+//fechar a conexao com o banco de dados
+mysqli_close($conn);
+?>
