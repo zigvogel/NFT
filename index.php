@@ -16,10 +16,11 @@ include_once './includes/_header.php';
 
         
         // laco de repeticao para exibir os 3 primeiros produtos
-        while ($dados = mysqli_fetch_assoc($exec)) { 
+        while ($dados = mysqli_fetch_assoc($exec)) 
+           {
         ?>
         <div class="card m-3" style="width: 18rem;">
-            <img src="./content/<?php echo $dados['Imagem'];?>" class="card-img-top" alt="...">
+            <img src="./content/<?php echo $dados['Imagens'];?>" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $dados['Nome'];?></h5>
                 <p class="card-text"><?php echo $dados['Descricao'];?></p>

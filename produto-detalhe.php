@@ -11,10 +11,10 @@ $tipo = $_GET['tipo'];
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1><?php echo $produtos[$id]['nome'];?></h1>
-            <p><?php echo $produtos[$id] ['descricao'];?></p>
-            <img src="./content/<?php echo $produtos[$id]['imagem'];?>">
-            <h4>R$ <?php echo $produtos[$id]['preco'];?></h4>
+            <h1><?php echo $produtos[$id]['Nome'];?></h1>
+            <p><?php echo $produtos[$id] ['Descricao'];?></p>
+            <img src="./content/<?php echo $produtos[$id]['Imagem'];?>">
+            <h4>R$ <?php echo $produtos[$id]['Preco'];?></h4>
         </div>
     </div>
     <div class="row">
